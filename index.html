@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agency - Your Trusted Travel Agent</title>
+    <title>LGo! - Agen Perjalanan Tepercaya</title>
+    <link rel="icon" href="img/lGo!.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,13 +12,13 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h2>moqups</h2>
+                <h2>LGo!</h2>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#our-package">Our Package</a></li>
-                    <li><a href="#call-us">Call Us</a></li>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#our-package">Paket Layanan</a></li>
+                    <li><a href="#contact-form">Sapa LGo!</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,35 +28,35 @@
     <section id="home" class="banner">
         <div class="container">
             <div class="banner-content">
-                <h1>Your Trusted Travel Agent's</h1>
-                <p>Your happiness is our hapiness</p>
+                <h1>Agen Perjalanan Tepercaya Anda</h1>
+                <p>Perjalanan Seru Anda, Prioritas Kami ❣</p>
                 <div class="banner-slider">
                     <div class="slide active">
                         <div class="slide-image">
-                            <img src="https://via.placeholder.com/800x400" alt="Travel Destination 1">
+                            <img src="img/image_sld1.jpg" alt="Travel ke Bali">
                         </div>
                         <div class="slide-caption">
-                            <p>"Liburan jadi menyenangkan bersama Travel Agenku."</p>
+                            <quote>"Liburan jadi menyenangkan bersama travel LGo!"</quote>
                             <div class="author">
                                 <div class="author-img">
-                                    <img src="https://via.placeholder.com/50" alt="Florence Hughes">
+                                    <img src="img/image_p1.png" alt="Florence Hughes">
                                 </div>
                                 <div class="author-info">
                                     <h4>Florence Hughes</h4>
-                                    <p>Isi Rumah Tangga 23</p>
+                                    <p>Vlogger</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide">
                         <div class="slide-image">
-                            <img src="https://via.placeholder.com/800x400" alt="Travel Destination 2">
+                            <img src="img/image_sld2.jpg" alt="Travel ke Jepang">
                         </div>
                         <div class="slide-caption">
-                            <p>"Pengalaman perjalanan terbaik yang pernah saya alami."</p>
+                            <quote>"Pengalaman perjalanan terbaik yang pernah saya alami."</quote>
                             <div class="author">
                                 <div class="author-img">
-                                    <img src="https://via.placeholder.com/50" alt="John Doe">
+                                    <img src="img/image_p2.png" alt="John Doe">
                                 </div>
                                 <div class="author-info">
                                     <h4>John Doe</h4>
@@ -66,13 +67,13 @@
                     </div>
                     <div class="slide">
                         <div class="slide-image">
-                            <img src="https://via.placeholder.com/800x400" alt="Travel Destination 3">
+                            <img src="img/image_sld3.jpg" alt="Travel dengan kapal">
                         </div>
                         <div class="slide-caption">
-                            <p>"Pelayanan yang memuaskan dan destinasi yang menakjubkan."</p>
+                            <quote>"Pelayanan yang memuaskan dan destinasi yang menakjubkan."</quote>
                             <div class="author">
                                 <div class="author-img">
-                                    <img src="https://via.placeholder.com/50" alt="Jane Smith">
+                                    <img src="img/image_p3.png" alt="Jane Smith">
                                 </div>
                                 <div class="author-info">
                                     <h4>Jane Smith</h4>
@@ -87,50 +88,55 @@
                     </div>
                 </div>
             </div>
-            <div class="contact-form">
-                <h3>Contact Us</h3>
-                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+            <div id="contact-form" class="contact-form">
+                <h3>Hubungi Kami</h3>
+                <p>Sales akan menghubungi Anda 1x24 jam setelah data kami terima.</p>
                 <form id="contactForm">
                     <div class="form-group">
-                        <label for="name">Your Name:</label>
-                        <input type="text" id="name" placeholder="First and last name" required>
+                        <label for="name">Nama Anda:</label>
+                        <input type="text" id="name" placeholder="Nama lengkap" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" placeholder="example@email.com" required>
+                        <label for="email">Alamat Email:</label>
+                        <input type="email" id="email" placeholder="contoh@email.com" required>
                     </div>
                     <div class="form-group">
-                        <label for="interest">What are you interested in?</label>
+                        <label for="interest">Apa yang Anda Minati?</label>
                         <select id="interest" required>
-                            <option value="">Select option</option>
+                            <option value="pilih">Pilih destinasi</option>
                             <option value="bali">Bali</option>
-                            <option value="japan">Japan</option>
-                            <option value="singapore">Singapore</option>
                             <option value="bandung">Bandung</option>
                             <option value="surabaya">Surabaya</option>
+                            <option value="singapore">Singapore</option>
+                            <option value="japan">Japan</option>
+                            <option value="other">Lainnya</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary">SEND</button>
+                    <button type="submit" class="btn btn-primary">KIRIM</button>
                 </form>
             </div>
         </div>
         <div class="container features">
-            <div class="intro">
-                <p>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</p>
-            </div>
             <div class="feature-list">
-                <div class="feature">
-                    <span class="number">1</span>
-                    <p>Your first feature, written in the form of a benefit statement.</p>
-                </div>
-                <div class="feature">
-                    <span class="number">2</span>
-                    <p>Your second feature, written in the form of a benefit statement.</p>
-                </div>
-                <div class="feature">
-                    <span class="number">3</span>
-                    <p>Your third feature, written in the form of a benefit statement.</p>
-                </div>
+                <ol>
+
+                    <div class="intro">
+                        <p>Kenapa harus pilih agen travel LGo!? 🤔 </p>
+                    </div>
+
+                    <div class="feature">
+                        <span class="number">1</span>
+                        <p>Pemesanan mudah dan aman hanya dengan beberapa klik</p>
+                    </div>
+                    <div class="feature">
+                        <span class="number">2</span>
+                        <p>Gambaran lengkap tentang destinasi tersedia sebelum berangkat</p>
+                    </div>
+                    <div class="feature">
+                        <span class="number">3</span>
+                        <p>Dukungan pelanggan 24/7 yang selalu siap membantu selama perjalanan</p>
+                    </div>
+                </ol>
             </div>
         </div>
     </section>
@@ -141,45 +147,62 @@
             <div class="package-grid">
                 <div class="package-item">
                     <div class="icon">
-                        <img src="https://via.placeholder.com/30" alt="Bali Icon">
+                        <img src="img/bali.png" alt="Bali Icon">
                     </div>
-                    <h3>Bali</h3>
-                    <p>Travel dan wisata di Bali, kunjungi cagar budaya dan kuliner yang menarik</p>
+                    <a href="https://youtu.be/9mcEpVFOm-g?si=WTYH6xCuMp59LZZO">
+                        <h3>Bali</h3>
+                    </a>
+                    <p>Di mana spiritualitas menari dengan ombak, Bali bukan sekadar destinasi, melainkan sebuah perasaan yang meresap dalam jiwa.</p>
                 </div>
+
                 <div class="package-item">
                     <div class="icon">
-                        <img src="https://via.placeholder.com/30" alt="Japan Icon">
+                        <img src="img/bandung.png" alt="Bandung Icon">
                     </div>
-                    <h3>Japan</h3>
-                    <p>Travel dan wisata di Japan, kunjungi cagar budaya dan kuliner yang menarik</p>
+                    <a href="https://youtu.be/EvSCr_cPy18?si=oyvWS4gK4rdRIFl_">
+                        <h3>Bandung</h3>
+                    </a>
+                    <p>Bukan hanya sekadar Paris van Java, Bandung adalah kanvas alam dan budaya di mana setiap sudutnya menawarkan pesona yang berbeda.</p>
                 </div>
+                
                 <div class="package-item">
                     <div class="icon">
-                        <img src="https://via.placeholder.com/30" alt="Singapore Icon">
+                        <img src="img/surabaya.png" alt="Surabaya Icon">
                     </div>
-                    <h3>Singapore</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <a href="https://youtu.be/PDa67SC8OKs?si=i41V3YNtuXzhYmha">
+                        <h3>Surabaya</h3>
+                    </a>
+                    <p>Lebih dari sekadar kota pahlawan, Surabaya menyimpan kejutan budaya dan semangat modern yang siap dieksplorasi.</p>
                 </div>
+                
                 <div class="package-item">
                     <div class="icon">
-                        <img src="https://via.placeholder.com/30" alt="Bandung Icon">
+                        <img src="img/singapore.png" alt="Singapore Icon">
                     </div>
-                    <h3>Bandung</h3>
-                    <p>This description supports and extends the bullet point above.</p>
-                </div>
+                    <a href="https://youtu.be/P_q3BdrFsLI?si=Kds7Ke79uugwUFff">
+                        <h3>Singapura</h3>
+                    </a>
+                    <p>Kilauan arsitektur futuristik bertemu dengan kelezatan kuliner multikultural, Singapura adalah miniatur dunia yang memukau dalam setiap sudutnya.</p>
+                </div>                
+
                 <div class="package-item">
                     <div class="icon">
-                        <img src="https://via.placeholder.com/30" alt="Surabaya Icon">
+                        <img src="img/japan.png" alt="Japan Icon">
                     </div>
-                    <h3>Surabaya</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <a href="https://youtu.be/WLIv7HnZ_fE?si=hONX2pGDcQyIFVu9">
+                        <h3>Jepang</h3>
+                    </a>
+                    <p>Dari tradisi kuno yang anggun hingga inovasi teknologi yang mencengangkan, Jepang adalah perjalanan melintasi waktu dan harmoni yang tak terlupakan.</p>
                 </div>
+
                 <div class="package-item">
                     <div class="icon">
-                        <img src="https://via.placeholder.com/30" alt="Third Feature Icon">
+                        <img src="img/others.png" alt="Others Icon">
                     </div>
-                    <h3>Third Feature</h3>
-                    <p>This description supports and extends the bullet point above.</p>
+                    <a href="https://youtu.be/0wl79UW7svs?si=KLdWyVAqRrzRfvoP">
+                        <h3>Lainnya</h3>
+                    </a>
+                    <p>Destinasi menarik lainnya yang membawa kenangan indah</p>
                 </div>
             </div>
         </div>
@@ -188,9 +211,13 @@
     <!-- Call Action Section -->
     <section id="call-us" class="call-action">
         <div class="container">
-            <h2>Your Closing Argument Headline</h2>
-            <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla.</p>
-            <a href="#contact" class="btn btn-action">CALL TO ACTION</a>
+            <h2>Siap Mewujudkan Liburan Impian Anda?</h2>
+            <p>
+                Jangan biarkan impian liburan Anda hanya menjadi angan. Bersama LGo!, mewujudkannya menjadi kenyataan sangatlah mudah. 
+                Kami hadir untuk memahami preferensi unik Anda dan merancang perjalanan yang tak terlupakan, sesuai dengan gaya dan anggaran Anda. 
+                Mulai dari pemilihan destinasi eksotis hingga akomodasi nyaman dan aktivitas menarik, setiap detail kami kurasi dengan cermat agar liburan Anda berjalan sempurna.
+            </p>
+            <a href="#contact-form" class="btn btn-action">Mulai Sekarang!</a>
         </div>
     </section>
 
@@ -198,12 +225,14 @@
     <footer>
         <div class="container">
             <div class="logo">
-                <h2>moqups</h2>
+                <h2>LGo!</h2>
             </div>
             <div class="footer-links">
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
-                <p>© 2019 Moqups</p>
+                <a href="#">Ketentuan Layanan</a>
+                <a href="#">Kebijakan Privasi</a>
+                <a href="https://www.linkedin.com/in/lovinta-hutagalung/">
+                    <p>© 2025 LGo! by Lovinta</p>
+                </a>
             </div>
         </div>
     </footer>
